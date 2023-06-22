@@ -1,0 +1,30 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  display: block;
+  width: 80%;
+  height: 20vh;
+  cursor: pointer;
+}
+
+.img-wrapper {
+  height: 50vh;
+  width: 50%;
+}
+img {
+  width: 100%;
+}
