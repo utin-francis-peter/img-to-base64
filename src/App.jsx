@@ -16,7 +16,7 @@ const App = () => {
     fileReader.readAsDataURL(file);
     fileReader.onloadend = () => {
       setImgPreview(fileReader.result);
-      // fileReader.result (base64 data url) can be used to make a post request when updating user profile img on a db, or better still, sent to cloudinary.
+      // fileReader.result (base64 data url) can be used to make a post request asynchronously when updating user profile img on a db, or better still, sent to cloudinary.
     };
   };
 
